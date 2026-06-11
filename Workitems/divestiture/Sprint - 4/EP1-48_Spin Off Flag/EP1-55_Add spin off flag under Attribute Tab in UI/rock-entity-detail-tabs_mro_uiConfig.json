@@ -1,0 +1,141 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [{
+                "id": "rock-entity-detail-tabs_mro_uiConfig",
+                "name": "rock-entity-detail-tabs_mro",
+                "type": "uiConfig",
+                
+                "data": {
+                    "contexts": [
+                        {
+                            "context": {
+                                "app": "_DEFAULT",
+                                "classification": "_DEFAULT",
+                                "component": "rock-entity-detail-tabs",
+                                "domain": "_DEFAULT",
+                                "entityType": "mro",
+                                "relationship": "_DEFAULT",
+                                "role": "_DEFAULT",
+                                "tenant": "_DEFAULT",
+                                "user": "_DEFAULT"
+                            },
+                            "jsonData": {
+                                "config": {
+                                    "tabItems": {
+                                        "relationships": {
+                                            "component": {
+                                                "properties": {
+                                                    "config-context": {
+                                                        "relationshipNames": [
+                                                            "_ALL"
+                                                        ]
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "assets": {
+                                            "visible": true
+                                        },
+                                        "attributes": {
+                                            "component": {
+                                                "properties": {
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "itmdesc2",
+                                                            "itmdesc1",
+                                                            "jdelastmodifieddate",
+                                                            "boallwdflg",
+                                                            "effenddat",
+                                                            "hasglblval",
+                                                            "uomprimmaster",
+                                                            "longitmnrhistory",
+                                                            "itstktyp",
+                                                            "nonstkitm",
+                                                            "corpflg",
+                                                            "x2lvl",
+                                                            "maintresp",
+                                                            "lintyp",
+                                                            "effstrtdat",
+                                                            "reqstr",
+                                                            "gtinalloctyp",
+                                                            "itemcodeautogenerate",
+                                                            "shlflifdy",
+                                                            "uomprimimp",
+                                                            "lastupddateapac",
+                                                            "spfindmstrec",
+                                                            "x7lvl",
+                                                            "lotproctyp",
+                                                            "x2",
+                                                            "gambrorefnr",
+                                                            "purpriclvl",
+                                                            "shrtitmnr",
+                                                            "uomupc",
+                                                            "longitmnr",
+                                                            "makbuy",
+                                                            "legacyitem",
+                                                            "massuploadflag",
+                                                            "chkavail",
+                                                            "upcnr",
+                                                            "uomscc2",
+                                                            "salpriclvl",
+                                                            "uomscc5",
+                                                            "uomscc6",
+                                                            "aipjdeacknowledgement",
+                                                            "eccncd",
+                                                            "hzdflg",
+                                                            "bu",
+                                                            "itmsrtx",
+                                                            "coscidint",
+                                                            "operationalbranchdetailseqcalc",
+                                                            "uomprimmet",
+                                                            "tempsensflg",
+                                                            "lastupddateetpd",
+                                                            "mintemp",
+                                                            "lastupddatelatam",
+                                                            "itmstat",
+                                                            "manufitmnr",
+                                                            "src",
+                                                            "maxtemp",
+                                                            "aipresponse",
+                                                            "jdeacknowledgement",
+                                                            "invcostlvl",
+                                                            "itmtyp",
+                                                            "mupdate",
+                                                            "stktyp",
+                                                            "ctryorig",
+                                                            "cemkflg",
+                                                            "ukidctrymanufseqcalc",
+                                                            "glcls",
+                                                            "itemcodebusiness",
+                                                            "lastupddateucan",
+                                                            "lastupddateemea",
+                                                            "opg2s",
+                                                            "ctrymanufs",
+                                                            "generalinfo",
+                                                            "prodstatuschangedat",
+                                                            "partusage",
+                                                            "cpnyowner",
+                                                            "spinoffflag",
+                                                            "aiptrigger",
+                                                            "aiprequestsequence",
+                                                            "workflowstatus"
+                                                        ]
+                                                    },
+                                                    "need-attributes-grouping": true
+                                                }
+                                            }
+                                        },
+                                        "graph": {
+                                            "visible": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }]}

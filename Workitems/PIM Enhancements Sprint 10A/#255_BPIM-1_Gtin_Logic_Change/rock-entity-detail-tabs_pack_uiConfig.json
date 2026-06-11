@@ -1,0 +1,120 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-detail-tabs_pack_uiConfig",
+            "name": "rock-entity-detail-tabs_pack",
+            "type": "uiConfig",
+            "properties": {
+                "createdBypack": "system",
+                "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+                "migrationVersion": 1,
+                "buildVersion": "1.70.1.1020",
+                "createdService": "configurationManageService",
+                "createdBy": "jayakrishnan_e_k@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "jayakrishnan_e_k@baxter.com_user",
+                "createdDate": "2021-09-27T00:17:20.497-0500",
+                "modifiedDate": "2021-09-27T00:17:20.497-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "_DEFAULT",
+                            "classification": "_DEFAULT",
+                            "component": "rock-entity-detail-tabs",
+                            "domain": "_DEFAULT",
+                            "entityType": "pack",
+                            "relationship": "_DEFAULT",
+                            "role": "_DEFAULT",
+                            "tenant": "_DEFAULT",
+                            "user": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "tabItems": {
+                                    "relationships": {
+                                        "component": {
+                                            "properties": {
+                                                "config-context": {
+                                                    "relationshipNames": [
+                                                        "_ALL"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "assets": {
+                                        "visible": false
+                                    },
+                                    "attributes": {
+                                        "component": {
+                                            "properties": {
+                                                "config-context": {
+                                                    "attributeNames": [
+                                                        "indicator",
+                                                        "shrtitmnr",
+                                                        "volumemetric",
+                                                        "uomdimensionmetric",
+                                                        "longitmnr",
+                                                        "companyprefix",
+                                                        "itemreferencesequence",
+                                                        "longitmnrhistory",
+                                                        "natdrugcd",
+                                                        "lengthmetric",
+                                                        "uomweightimperial",
+                                                        "uomdimensionimperial",
+                                                        "coscidint",
+                                                        "gtinhelper1",
+                                                        "lengthimperial",
+                                                        "uomvolumemetric",
+                                                        "volumeimperial",
+                                                        "grossweightmetric",
+                                                        "heightimperial",
+                                                        "netweightimperial",
+                                                        "pkggtin",
+                                                        "uomvolumeimperial",
+                                                        "widthimperial",
+                                                        "netweightmetric",
+                                                        "widthmetric",
+                                                        "heightmetric",
+                                                        "pakfactor",
+                                                        "pkpimid",
+                                                        "grossweightimperial",
+                                                        "uomweightmetric",
+                                                        "innerpacktype",
+                                                        "generategtin",
+                                                        "dummyeachgtin1",
+                                                        "dummyeachgtin",
+                                                        "natdrugcd10",
+                                                        "hrcsrcuomdimension",
+                                                        "hrcsrcwidth",
+                                                        "hrcsrcvolume",
+                                                        "hrcsrclength",
+                                                        "hrcsrcgrossweight",
+                                                        "hrcsrcheight",
+                                                        "hrcsrcuomweight",
+                                                        "hrcsrcuomvolume"
+                                                    ]
+                                                },
+                                                "need-attributes-grouping": true
+                                            }
+                                        }
+                                    },
+                                    "graph": {
+                                        "visible": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

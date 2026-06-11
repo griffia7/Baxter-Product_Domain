@@ -1,0 +1,94 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [{
+                "id": "rock-entity-detail-tabs_pallet_uiConfig",
+                "name": "rock-entity-detail-tabs_pallet",
+                "type": "uiConfig",
+               
+                "data": {
+                    "contexts": [
+                        {
+                            "context": {
+                                "app": "_DEFAULT",
+                                "classification": "_DEFAULT",
+                                "component": "rock-entity-detail-tabs",
+                                "domain": "_DEFAULT",
+                                "entityType": "pallet",
+                                "relationship": "_DEFAULT",
+                                "role": "_DEFAULT",
+                                "tenant": "_DEFAULT",
+                                "user": "_DEFAULT"
+                            },
+                            "jsonData": {
+                                "config": {
+                                    "tabItems": {
+                                        "relationships": {
+                                            "component": {
+                                                "properties": {
+                                                    "config-context": {
+                                                        "relationshipNames": [
+                                                            "_ALL"
+                                                        ]
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "assets": {
+                                            "visible": false
+                                        },
+                                        "attributes": {
+                                            "component": {
+                                                "properties": {
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "shrtitmnr",
+                                                            "volumemetric",
+                                                            "uomdimensionmetric",
+                                                            "longitmnr",
+                                                            "companyprefix",
+                                                            "itemreferencesequence",
+                                                            "longitmnrhistory",
+                                                            "lengthmetric",
+                                                            "uomweightimperial",
+                                                            "uomdimensionimperial",
+                                                            "coscidint",
+                                                            "gtinhelper1",
+                                                            "lengthimperial",
+                                                            "uomvolumemetric",
+                                                            "volumeimperial",
+                                                            "grossweightmetric",
+                                                            "stacklimit",
+                                                            "numberoflayers",
+                                                            "heightimperial",
+                                                            "netweightimperial",
+                                                            "uomvolumeimperial",
+                                                            "widthimperial",
+                                                            "netweightmetric",
+                                                            "widthmetric",
+                                                            "heightmetric",
+                                                            "pakfactor",
+                                                            "pallettype",
+                                                            "pkpimid",
+                                                            "grossweightimperial",
+                                                            "uomweightmetric",
+                                                            "cpnyowner"
+                                                        ]
+                                                    },
+                                                    "need-attributes-grouping": true
+                                                }
+                                            }
+                                        },
+                                        "graph": {
+                                            "visible": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }]}

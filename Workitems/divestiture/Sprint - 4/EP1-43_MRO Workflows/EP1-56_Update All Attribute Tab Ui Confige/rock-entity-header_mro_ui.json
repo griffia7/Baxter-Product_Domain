@@ -1,0 +1,109 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-header_mro_uiConfig",
+      "name": "rock-entity-header_mro",
+      "type": "uiConfig",
+     
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "_DEFAULT",
+              "classification": "_DEFAULT",
+              "component": "rock-entity-header",
+              "domain": "_DEFAULT",
+              "entityType": "mro",
+              "relationship": "_DEFAULT",
+              "role": "_DEFAULT",
+              "tenant": "_DEFAULT",
+              "user": "_DEFAULT"
+            },
+            "jsonData": {
+              "config": {
+                "headerConfig": {
+                  "itmdesc2": {
+                    "visible": true,
+                    "displaySequence": 45,
+                    "attributeName": "itmdesc2",
+                    "noTrim": true,
+                    "label": "Master Description 2"
+                  },
+                  "itmstat": {
+                    "visible": true,
+                    "displaySequence": 75,
+                    "attributeName": "itmstat",
+                    "noTrim": true,
+                    "label": "Product Status"
+                  },
+                  "itmdesc1": {
+                    "visible": true,
+                    "displaySequence": 30,
+                    "attributeName": "itmdesc1",
+                    "noTrim": true,
+                    "label": "Master Description 1"
+                  },
+                  "typeExternalName": {
+                    "visible": false
+                  },
+                  "longitmnr": {
+                    "visible": true,
+                    "displaySequence": 15,
+                    "attributeName": "longitmnr",
+                    "noTrim": true,
+                    "label": "Item Code"
+                  },
+                  "name": {
+                    "visible": false
+                  },
+                  "x2": {
+                    "visible": true,
+                    "displaySequence": 105,
+                    "attributeName": "x2",
+                    "noTrim": true,
+                    "label": "X2 Level Hierarchy"
+                  },
+                  "id": {
+                    "visible": false
+                  },
+                  "itmtyp": {
+                    "visible": true,
+                    "displaySequence": 120,
+                    "attributeName": "itmtyp",
+                    "noTrim": true,
+                    "label": "Product Type"
+                  },
+                  "workflowstatus": {
+                    "visible": true,
+                    "displaySequence": 150,
+                    "attributeName": "workflowstatus",
+                    "noTrim": true,
+                    "label": "Global Workflow Status"
+                  },
+                  "makbuy": {
+                    "visible": true,
+                    "displaySequence": 90,
+                    "attributeName": "makbuy",
+                    "noTrim": true,
+                    "label": "Make or Buy"
+                }
+                },
+                "thumbnailConfig": {
+                  "relationshipName": "imageofmro",
+                  "relationshipFilterAttributeName": "isprimary",
+                  "relationshipFilterAttributeValue": true,
+                  "thumbnailIdentifier": "thumbnailid"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

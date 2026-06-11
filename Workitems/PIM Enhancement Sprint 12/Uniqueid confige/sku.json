@@ -1,0 +1,48 @@
+{
+    "request": {
+        "returnRequest": false,
+        "requestId": "c2528399-b1cf-47d8-bd10-6cf93991f142",
+        "maxRecords": 100,
+        "taskId": "c2528399-b1cf-47d8-bd10-6cf93991f142"
+    },
+    "response": {
+        "configObjects": [
+            {
+                "properties": {
+                    "entitytype": "sku",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "0887761",
+                    "suffix": "",
+                    "paddirection": "left",
+                    "padcharacter": "0",
+                    "totalwidth": "12",
+                    "startupseed": "0",
+                    "increment": "1",
+                    "lastgeneratedid": "088776100179"
+                }
+            }
+        ],
+        "status": "success",
+        "totalRecords": 1
+    }
+}
+ ------------------------------------------- Updatde ------------------
+{
+    "configObject": {
+        "type": "uniqueIdConfig",
+        "properties": {
+            "entitytype": "sku",
+            "context": "",
+            "relationshiptype": "",
+            "prefix": "197886",
+            "suffix": "",
+            "paddirection": "left",
+            "padcharacter": "0",
+            "totalwidth": "12",
+            "startupseed": "0",
+            "increment": "1",
+            "lastgeneratedid": "088776100118"
+        }
+    }
+}

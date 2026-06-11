@@ -1,0 +1,159 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [{
+                "id": "rock-entity-detail-tabs_service_uiConfig",
+                "name": "rock-entity-detail-tabs_service",
+                "type": "uiConfig",
+               
+                "data": {
+                    "contexts": [
+                        {
+                            "context": {
+                                "app": "_DEFAULT",
+                                "classification": "_DEFAULT",
+                                "component": "rock-entity-detail-tabs",
+                                "domain": "_DEFAULT",
+                                "entityType": "service",
+                                "relationship": "_DEFAULT",
+                                "role": "_DEFAULT",
+                                "tenant": "_DEFAULT",
+                                "user": "_DEFAULT"
+                            },
+                            "jsonData": {
+                                "config": {
+                                    "tabItems": {
+                                        "relationships": {
+                                            "visible": false
+                                        },
+                                        "assets": {
+                                            "visible": false
+                                        },
+                                        "attributes": {
+                                            "component": {
+                                                "properties": {
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "itmdesc2",
+                                                            "itmdesc1",
+                                                            "jdelastmodifieddate",
+                                                            "ukidtargetmktseqcalc",
+                                                            "boallwdflg",
+                                                            "effenddat",
+                                                            "uomprimmaster",
+                                                            "fgtype",
+                                                            "hasglblval",
+                                                            "lastmodifiedby",
+                                                            "entityeditpermission",
+                                                            "longitmnrhistory",
+                                                            "itstktyp",
+                                                            "nonstkitm",
+                                                            "scoutbaxnrat",
+                                                            "gtshwsieb",
+                                                            "createdby",
+                                                            "bxsaipflg",
+                                                            "corpflg",
+                                                            "x2lvl",
+                                                            "maintresp",
+                                                            "lintyp",
+                                                            "effstrtdat",
+                                                            "reqstr",
+                                                            "triggeroperationalbranch",
+                                                            "gtinalloctyp",
+                                                            "aiprequestsequence",
+                                                            "itemcodeautogenerate",
+                                                            "shlflifdy",
+                                                            "uomprimimp",
+                                                            "lastupddateapac",
+                                                            "gqareviewrequired",
+                                                            "x7lvl",
+                                                            "lotproctyp",
+                                                            "x2",
+                                                            "gambrorefnr",
+                                                            "purpriclvl",
+                                                            "uomscc8",
+                                                            "shrtitmnr",
+                                                            "workflowstatus",
+                                                            "uomupc",
+                                                            "longitmnr",
+                                                            "makbuy",
+                                                            "legacyitem",
+                                                            "massuploadflag",
+                                                            "upcnr",
+                                                            "chkavail",
+                                                            "uomscc1",
+                                                            "uomscc2",
+                                                            "salpriclvl",
+                                                            "uomscc3",
+                                                            "aiptrigger",
+                                                            "uomscc4",
+                                                            "uomscc5",
+                                                            "uomscc6",
+                                                            "uomscc7",
+                                                            "aipjdeacknowledgement",
+                                                            "eccncd",
+                                                            "hzdflg",
+                                                            "bu",
+                                                            "itmsrtx",
+                                                            "containercode",
+                                                            "cleaningstatus",
+                                                            "coscidint",
+                                                            "operationalbranchdetailseqcalc",
+                                                            "uomprimmet",
+                                                            "repl",
+                                                            "pdoreviewrequired",
+                                                            "tempsensflg",
+                                                            "lastupddateetpd",
+                                                            "mintemp",
+                                                            "lastupddatelatam",
+                                                            "itmstat",
+                                                            "manufitmnr",
+                                                            "recordcordinatioreviewrequired",
+                                                            "src",
+                                                            "maxtemp",
+                                                            "lastmodifieddate",
+                                                            "aipresponse",
+                                                            "jdeacknowledgement",
+                                                            "invcostlvl",
+                                                            "itmtyp",
+                                                            "createdon",
+                                                            "scalarefnr",
+                                                            "stktyp",
+                                                            "ergonrefnr",
+                                                            "ctryorig",
+                                                            "cemkflg",
+                                                            "ukidctrymanufseqcalc",
+                                                            "glcls",
+                                                            "itemcodebusiness",
+                                                            "regionalworkflowstatus",
+                                                            "lastupddateucan",
+                                                            "scoutbaxnrde",
+                                                            "adminreviewrequired",
+                                                            "lastupddateemea",
+                                                            "targetmkts",
+                                                            "opg2s",
+                                                            "ctrymanufs",
+                                                            "ccitmtyp",
+                                                            "matcls",
+                                                            "subitmtyp",
+                                                            "cpnyowner",
+                                                            "spinoffflag"
+                                                        ]
+                                                    },
+                                                    "need-attributes-grouping": true
+                                                }
+                                            }
+                                        },
+                                        "graph": {
+                                            "visible": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }]}

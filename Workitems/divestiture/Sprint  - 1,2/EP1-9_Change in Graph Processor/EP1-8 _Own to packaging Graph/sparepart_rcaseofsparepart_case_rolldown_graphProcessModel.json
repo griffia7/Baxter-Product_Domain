@@ -1,0 +1,94 @@
+{
+    "metaInfo": {
+        "dataIndex": "entityModel",
+        "collectionName": "entityModels",
+        "responseObjectName": "response"
+    },
+    "entityModels": [
+        {
+            "id": "sparepart_rcaseofsparepart_case_rolldown_graphProcessModel",
+            "name": "sparepart_rcaseofsparepart_case_rolldown",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "defaultValueSource": "internal",
+                "defaultValueLocale": "en-US",
+                "graphProcessPath": "sparepart_rcaseofsparepart_case",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "relationshipBased",
+                        "relationshipName": "rcaseofsparepart",
+                        "matchRulesOperator": "or",
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "DoNothing"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "data": {
+                "attributes": {
+                    "itemreferencesequence": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "companyprefix": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "longitmnr": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "shrtitmnr": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "eachgtin": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "gtinhelper1": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "cpnyowner": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

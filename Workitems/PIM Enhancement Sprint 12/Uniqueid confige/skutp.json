@@ -1,0 +1,49 @@
+{
+    "request": {
+        "returnRequest": false,
+        "requestId": "cce5fe24-8ba0-4c45-b018-81d4ad338cea",
+        "maxRecords": 100,
+        "taskId": "cce5fe24-8ba0-4c45-b018-81d4ad338cea"
+    },
+    "response": {
+        "configObjects": [
+            {
+                "properties": {
+                    "entitytype": "skutp",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "0732094",
+                    "suffix": "",
+                    "paddirection": "left",
+                    "padcharacter": "0",
+                    "totalwidth": "12",
+                    "startupseed": "0",
+                    "increment": "1",
+                    "lastgeneratedid": "073209400148"
+                }
+            }
+        ],
+        "status": "success",
+        "totalRecords": 1
+    }
+}
+
+{------------------- update ---------------}
+{
+    "configObject": {
+        "type": "uniqueIdConfig",
+        "properties": {
+            "entitytype": "skutp",
+            "context": "",
+            "relationshiptype": "",
+            "prefix": "197887",
+            "suffix": "",
+            "paddirection": "left",
+            "padcharacter": "0",
+            "totalwidth": "12",
+            "startupseed": "0",
+            "increment": "1",
+            "lastgeneratedid": "073209400047"
+        }
+    }
+}

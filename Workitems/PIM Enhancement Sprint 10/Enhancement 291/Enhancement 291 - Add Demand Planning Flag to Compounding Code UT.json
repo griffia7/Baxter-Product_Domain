@@ -1,0 +1,179 @@
+{
+
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+
+    {
+      "id": "rock-entity-detail-tabs_compoundingcode_uiConfig",
+      "name": "rock-entity-detail-tabs_compoundingcode",
+      "type": "uiConfig",
+      "properties": {
+        "migrationVersion": 2,
+        "buildVersion": "1.82.0.2036",
+        "createdService": "configurationManageService",
+        "createdBy": "baxterpim.admin@riversand.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "baxterpim.admin@riversand.com_user",
+        "createdDate": "2022-10-10T07:07:28.507-0500",
+        "modifiedDate": "2022-10-10T07:07:28.507-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "_DEFAULT",
+              "classification": "_DEFAULT",
+              "component": "rock-entity-detail-tabs",
+              "domain": "_DEFAULT",
+              "entityType": "compoundingcode",
+              "relationship": "_DEFAULT",
+              "role": "_DEFAULT",
+              "tenant": "_DEFAULT",
+              "user": "_DEFAULT"
+            },
+            "jsonData": {
+              "config": {
+                "tabItems": {
+                  "relationships": {
+                    "component": {
+                      "properties": {
+                        "config-context": {
+                          "relationshipNames": [
+                            "_ALL"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "assets": {
+                    "visible": true
+                  },
+                  "attributes": {
+                    "component": {
+                      "properties": {
+                        "config-context": {
+                          "attributeNames": [
+                            "itmdesc2",
+                            "itmdesc1",
+                            "jdelastmodifieddate",
+                            "ukidtargetmktseqcalc",
+                            "boallwdflg",
+                            "comcd",
+                            "companyprefix",
+                            "effenddat",
+                            "ltxfreeflg",
+                            "uomprimmaster",
+                            "hasglblval",
+                            "longitmnrhistory",
+                            "itstktyp",
+                            "nonstkitm",
+                            "gtinhelper1",
+                            "createdby",
+                            "bxsaipflg",
+                            "corpflg",
+                            "x2lvl",
+                            "fgtype",
+                            "maintresp",
+                            "lintyp",
+                            "effstrtdat",
+                            "reqstr",
+                            "triggeroperationalbranch",
+                            "gtinalloctyp",
+                            "itemcodeautogenerate",
+                            "aiprequestsequence",
+                            "shlflifdy",
+                            "uomprimimp",
+                            "lastupddateapac",
+                            "wiseitmnr",
+                            "dehpfreeflg",
+                            "x7lvl",
+                            "lotproctyp",
+                            "x2",
+                            "purpriclvl",
+                            "uomscc8",
+                            "shrtitmnr",
+                            "workflowstatus",
+                            "uomupc",
+                            "longitmnr",
+                            "makbuy",
+                            "legacyitem",
+                            "massuploadflag",
+                            "itemreferencesequence",
+                            "upcnr",
+                            "chkavail",
+                            "uomscc1",
+                            "uomscc2",
+                            "salpriclvl",
+                            "uomscc3",
+                            "aiptrigger",
+                            "natdrugcd",
+                            "uomscc4",
+                            "uomscc5",
+                            "uomscc6",
+                            "uomscc7",
+                            "aipjdeacknowledgement",
+                            "eccncd",
+                            "dmdplanflg",
+                            "hzdflg",
+                            "bu",
+                            "itmsrtx",
+                            "containercode",
+                            "cleaningstatus",
+                            "coscidint",
+                            "operationalbranchdetailseqcalc",
+                            "uomprimmet",
+                            "legalentitylevelworkflowstatus",
+                            "tempsensflg",
+                            "lastupddateetpd",
+                            "mintemp",
+                            "lastupddatelatam",
+                            "itmstat",
+                            "manufitmnr",
+                            "src",
+                            "mercfreeflg",
+                            "maxtemp",
+                            "mnthexp",
+                            "aipresponse",
+                            "jdeacknowledgement",
+                            "invcostlvl",
+                            "itmtyp",
+                            "createdon",
+                            "mupdate",
+                            "stktyp",
+                            "cemkflg",
+                            "ctryorig",
+                            "drugmdothflg",
+                            "ukidctrymanufseqcalc",
+                            "pvcfreeflg",
+                            "glcls",
+                            "itemcodebusiness",
+                            "lastupddateucan",
+                            "lastupddateemea",
+                            "targetmkts",
+                            "opg2s",
+                            "plntlastasss",
+                            "ctrymanufs",
+                            "ccitmtyp"
+                          ]
+                        },
+                        "need-attributes-grouping": true
+                      }
+                    }
+                  },
+                  "graph": {
+                    "visible": true
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+
+  ]
+}

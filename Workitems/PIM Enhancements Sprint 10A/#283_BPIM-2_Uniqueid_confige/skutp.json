@@ -1,0 +1,18 @@
+{
+    "configObject": {
+        "type": "uniqueIdConfig",
+        "properties": {
+            "entitytype": "skutp",
+            "context": "",
+            "relationshiptype": "",
+            "prefix": "197887",
+            "suffix": "",
+            "paddirection": "left",
+            "padcharacter": "0",
+            "totalwidth": "12",
+            "startupseed": "0",
+            "increment": "1",
+            "lastgeneratedid": "073209400047"
+        }
+    }
+}

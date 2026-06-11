@@ -1,0 +1,150 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_export_sparepart_data_dsv_blob",
+            "name": "bax_export_sparepart_data_dsv_blob",
+            "type": "integrationprofile",
+            "properties": {
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "system_user",
+                "modifiedDate": "2023-04-25T05:22:27.186-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "RSConnect",
+                            "channel": "AZURE_BLOB_Sparepart",
+                            "format": "DSV",
+                            "order": "101",
+                            "role": "admin",
+                            "service": "ENTITY_EXPORT",
+                            "source": "internal",
+                            "subtype": "System",
+                            "user": "system"
+                        },
+                        "jsonData": {
+                            "statusEventEnabled": false,
+                            "transform": {
+                                "settings": {
+                                    "allowNullValues": "false",
+                                    "clearMissingAttributes": "false",
+                                    "strategies": [
+                                        {
+                                            "caseFormat": "NONE",
+                                            "trimTrailingNumbers": "false",
+                                            "isDefault": "false",
+                                            "removeSpecialCharacters": "false",
+                                            "removeWhitespace": "false",
+                                            "useExternalName": "true",
+                                            "collectionSeparator": "||",
+                                            "trimLeadingNumbers": "false"
+                                        }
+                                    ],
+                                    "entityType": "@field(type)",
+                                    "enableDynamicMapping": "true",
+                                    "source": "rms"
+                                }
+                            },
+                            "integrationType": "User",
+                            "profileType": "custom",
+                            "isEnabled": "true",
+                            "publish": {
+                                "isBinaryStreamPersistent": "true",
+                                "channel": [
+                                    {
+                                        "settings": {
+                                            "folderPath": "csv/Sparepart/",
+                                            "containerName": "baxterpimds-export",
+                                            "fileType": ".*"
+                                        },
+                                        "type": "azureBlobConnector"
+                                    }
+                                ],
+                                "format": {
+                                    "settings": {
+                                        "dsvSettings": {
+                                            "quotechar": "\"",
+                                            "delimiter": ",",
+                                            "startLine": 0
+                                        },
+                                        "isLocalizationEnabled": "true",
+                                        "additionalSettings": {
+                                            "loadSourceEntityMatchAttributes": true,
+                                            "columnPrefix": "FROM_ENTITY_",
+                                            "fileName": "customFileName",
+                                            "fileExtension": "csv",
+                                            "fileNameFormat": "csv/Sparepart/Sparepart_{{DATETIME}}.csv",
+                                            "maintainSortOrder": true
+                                          },
+                                        "encoding": "utf8"
+                                    },
+                                    "type": "DSV",
+                                    "version": "1.1"
+                                }
+                            },
+                            "isMergeableWithCustom": true,
+                            "collect": {
+                                "filter": {
+                                    "include": {
+                                        "useProfileAttributesOnly": true,
+                                        "typesCriterion": {
+                                            "sparepart": {
+                                                "queryFields": {
+                                                    "attributes": [
+                                                        "shrtitmnr",
+                                                        "longitmnr",
+                                                        "technology",
+                                                        "itmdesc1",
+                                                        "itmdesc2"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "exclude": {}
+                                },
+                                "isBinaryStreamPersistent": "false",
+                                "channel": [
+                                    {
+                                        "settings": {
+                                            "includeMatchingAttributes": true,
+                                            "includeEnhancerAttributes": true,
+                                            "includeRelatedEntities": false,
+                                            "includeRelatedEntitiesRecursive": false,
+                                            "version": "1.1",
+                                            "includeRelatedEntityExternalIds": true
+                                        },
+                                        "type": "rdpConnector"
+                                    }
+                                ],
+                                "format": {
+                                    "settings": {
+                                        "supportsCollection": "true",
+                                        "additionalSettings": {
+                                            "batchSizeLimit": 100000,
+                                            "enablePreCalculateEnhancer": true,
+                                            "supportEmptyContextsRequest": true,
+                                            "loadDynamicContext": true,
+                                            "preCalculateEnhancerBatchSize": 500,
+                                            "encoding": "utf8"
+                                        },
+                                        "encoding": "utf8"
+                                    },
+                                    "type": "RSJSON",
+                                    "batchSize": 10,
+                                    "version": "1.1"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "request": {
+        "returnRequest": false,
+        "requestId": "4651c91a-689b-4078-bbba-4b50b85dfeca",
+        "maxRecords": 100,
+        "taskId": "4651c91a-689b-4078-bbba-4b50b85dfeca"
+    },
+    "response": {
+        "configObjects": [
+            {
+                "properties": {
+                    "entitytype": "other",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "0615521||197888",
+                    "suffix": "",
+                    "paddirection": "left",
+                    "padcharacter": "0",
+                    "totalwidth": "12",
+                    "startupseed": "0",
+                    "increment": "1",
+                    "lastgeneratedid": "061552100286"
+                }
+            }
+        ],
+        "status": "success",
+        "totalRecords": 1
+    }
+}
+----------------- Update ---------------------
+
+    {
+        "configObject": {
+            "type": "uniqueIdConfig",
+            "properties": {
+                "entitytype": "other",
+                "context": "",
+                "relationshiptype": "",
+                "prefix": "197888",
+                "suffix": "",
+                "paddirection": "left",
+                "padcharacter": "0",
+                "totalwidth": "12",
+                "startupseed": "0",
+                "increment": "1",
+                "lastgeneratedid": "061552100286"
+            }
+        }
+    }

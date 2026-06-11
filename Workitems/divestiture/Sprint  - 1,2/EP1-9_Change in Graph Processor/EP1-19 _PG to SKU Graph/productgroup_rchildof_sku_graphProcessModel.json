@@ -1,0 +1,164 @@
+{
+    "metaInfo": {
+        "dataIndex": "entityModel",
+        "responseObjectName": "response",
+        "collectionName": "entityModels"
+    },
+    "entityModels": [
+        {
+            "id": "productgroup_rchildof_sku_graphProcessModel",
+            "name": "productgroup_rchildof_sku",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "defaultValueSource": "internal",
+                "defaultValueLocale": "en-US",
+                "graphProcessPath": "productgroup_rchildof_sku",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "relationshipBased",
+                        "relationshipName": "rchildof",
+                        "matchRulesOperator": "or",
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "DoNothing"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "data": {
+                "attributes": {
+                    "itmtyp": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "uomprimimp": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "salpriclvl": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "purpriclvl": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "invcostlvl": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "makbuy": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "dmdplanflg": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "nonstkitm": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "prodgrpid": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "uomprimmet": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "lintyp": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "pimhierarchy": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "prodgrpname": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "comcd": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "hwtrkflg": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "gtshwsieb": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "bu": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "technology": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "kitconfpricmeth": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "drugmdothflg": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "cpnyowner": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

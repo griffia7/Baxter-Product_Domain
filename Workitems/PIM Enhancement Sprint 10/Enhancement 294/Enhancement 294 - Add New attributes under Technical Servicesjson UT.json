@@ -1,0 +1,196 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+
+    {
+      "id": "rock-entity-detail-tabs_sparepart_uiConfig",
+      "name": "rock-entity-detail-tabs_sparepart",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.82.0.2036",
+        "createdService": "configurationManageService",
+        "createdBy": "baxterpim.admin@riversand.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "baxterpim.admin@riversand.com_user",
+        "createdDate": "2022-10-10T07:07:28.499-0500",
+        "modifiedDate": "2022-10-10T07:07:28.499-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "_DEFAULT",
+              "classification": "_DEFAULT",
+              "component": "rock-entity-detail-tabs",
+              "domain": "_DEFAULT",
+              "entityType": "sparepart",
+              "relationship": "_DEFAULT",
+              "role": "_DEFAULT",
+              "tenant": "_DEFAULT",
+              "user": "_DEFAULT"
+            },
+            "jsonData": {
+              "config": {
+                "tabItems": {
+                  "relationships": {
+                    "component": {
+                      "properties": {
+                        "config-context": {
+                          "relationshipNames": [
+                            "_ALL"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "assets": {
+                    "visible": true
+                  },
+                  "attributes": {
+                    "component": {
+                      "properties": {
+                        "config-context": {
+                          "attributeNames": [
+                            "itmdesc2",
+                            "itmdesc1",
+                            "jdelastmodifieddate",
+                            "companyprefix",
+                            "effenddat",
+                            "ltxfreeflg",
+                            "uomprimmaster",
+                            "fgtype",
+                            "lastmodifiedby",
+                            "entityeditpermission",
+                            "longitmnrhistory",
+                            "1wayrepl",
+                            "scoutbaxnrat",
+                            "gtinhelper1",
+                            "maintresp",
+                            "lintyp",
+                            "effstrtdat",
+                            "shlflifdy",
+                            "lastupddateapac",
+                            "sernrreq",
+                            "gqareviewrequired",
+                            "lotproctyp",
+                            "gambrorefnr",
+                            "shrtitmnr",
+                            "workflowstatus",
+                            "makbuy",
+                            "itemreferencesequence",
+                            "upcnr",
+                            "prtlrepl",
+                            "custfrienddesc",
+                            "salpriclvl",
+                            "aiptrigger",
+                            "eccncd",
+                            "bu",
+                            "itmsrtx",
+                            "containercode",
+                            "cleaningstatus",
+                            "uomprimmet",
+                            "repl",
+                            "pdoreviewrequired",
+                            "legalentitylevelworkflowstatus",
+                            "tempsensflg",
+                            "lastupddateetpd",
+                            "mintemp",
+                            "eqnr",
+                            "itmstat",
+                            "manufitmnr",
+                            "recordcordinatioreviewrequired",
+                            "mercfreeflg",
+                            "maxtemp",
+                            "invcostlvl",
+                            "itmtyp",
+                            "createdon",
+                            "mupdate",
+                            "ergonrefnr",
+                            "cemkflg",
+                            "ctryorig",
+                            "pvcfreeflg",
+                            "adminreviewrequired",
+                            "ukidtargetmktseqcalc",
+                            "boallwdflg",
+                            "costteamapproved",
+                            "hasglblval",
+                            "itstktyp",
+                            "nonstkitm",
+                            "gtshwsieb",
+                            "createdby",
+                            "bxsaipflg",
+                            "corpflg",
+                            "x2lvl",
+                            "reqstr",
+                            "triggeroperationalbranch",
+                            "gtinalloctyp",
+                            "aiprequestsequence",
+                            "itemcodeautogenerate",
+                            "uomprimimp",
+                            "dehpfreeflg",
+                            "x7lvl",
+                            "x2",
+                            "purpriclvl",
+                            "uomscc8",
+                            "uomupc",
+                            "longitmnr",
+                            "legacyitem",
+                            "massuploadflag",
+                            "chkavail",
+                            "uomscc1",
+                            "uomscc2",
+                            "uomscc3",
+                            "uomscc4",
+                            "uomscc5",
+                            "uomscc6",
+                            "uomscc7",
+                            "aipjdeacknowledgement",
+                            "hzdflg",
+                            "coscidint",
+                            "operationalbranchdetailseqcalc",
+                            "cytosflg",
+                            "lastupddatelatam",
+                            "src",
+                            "lastmodifieddate",
+                            "aipresponse",
+                            "jdeacknowledgement",
+                            "technology",
+                            "scalarefnr",
+                            "stktyp",
+                            "ukidctrymanufseqcalc",
+                            "glcls",
+                            "itemcodebusiness",
+                            "lastupddateucan",
+                            "scoutbaxnrde",
+                            "lastupddateemea",
+                            "targetmkts",
+                            "opg2s",
+                            "plntlastasss",
+                            "ctrymanufs",
+                            "ccitmtyp",
+                            "generalinfo",
+                            "prodstatuschangedat",
+                            "partusage"
+                          ]
+                        },
+                        "need-attributes-grouping": true
+                      }
+                    }
+                  },
+                  "graph": {
+                    "visible": true
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+
+  ]
+}

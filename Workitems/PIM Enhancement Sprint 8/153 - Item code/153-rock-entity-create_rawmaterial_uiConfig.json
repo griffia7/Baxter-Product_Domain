@@ -1,0 +1,61 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+{
+    "id": "rock-entity-create_rawmaterial_uiConfig",
+    "name": "rock-entity-create_rawmaterial",
+    "type": "uiConfig",
+    "properties": {
+        "buildVersion": "1.78.0.2053",
+        "createdService": "configurationManageService",
+        "createdBy": "riversand@baxterpim.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "riversand@baxterpim.com_user",
+        "createdDate": "2022-07-14T08:01:51.641-0500",
+        "modifiedDate": "2022-07-14T08:01:51.641-0500"
+    },
+    "data": {
+        "contexts": [
+            {
+                "context": {
+                    "app": "_DEFAULT",
+                    "classification": "_DEFAULT",
+                    "component": "rock-entity-create",
+                    "domain": "_DEFAULT",
+                    "entityType": "rawmaterial",
+                    "relationship": "_DEFAULT",
+                    "role": "_DEFAULT",
+                    "tenant": "_DEFAULT",
+                    "user": "_DEFAULT"
+                },
+                "jsonData": {
+                    "config": {
+                        "properties": {
+                            "matchConfig": {
+                                "enable-match-step": true,
+                                "compare-title": "{[ECMCComTit]}",
+                                "allow-create": true
+                            },
+                            "attributeNames": [
+                                "itemcodebusiness",
+                                "itemcodeautogenerate",
+                                "itmdesc1",
+                                "itmdesc2",
+                                "makbuy",
+                                "x2",
+                                "itmtyp"
+                            ],
+                            "enableRelationshipsMatchMerge": false
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
+    ]
+}

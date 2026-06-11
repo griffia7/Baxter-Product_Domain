@@ -1,0 +1,46 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-create_mro_uiConfig",
+      "name": "rock-entity-create_mro",
+      "type": "uiConfig",
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "_DEFAULT",
+              "classification": "_DEFAULT",
+              "component": "rock-entity-create",
+              "domain": "_DEFAULT",
+              "entityType": "mro",
+              "relationship": "_DEFAULT",
+              "role": "_DEFAULT",
+              "tenant": "_DEFAULT",
+              "user": "_DEFAULT"
+            },
+            "jsonData": {
+              "config": {
+                "properties": {
+                  "attributeNames": [
+                    "itemcodebusiness",
+                    "itemcodeautogenerate",
+                    "itmdesc1",
+                    "itmdesc2",
+                    "makbuy",
+                    "x2",
+                    "itmtyp"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

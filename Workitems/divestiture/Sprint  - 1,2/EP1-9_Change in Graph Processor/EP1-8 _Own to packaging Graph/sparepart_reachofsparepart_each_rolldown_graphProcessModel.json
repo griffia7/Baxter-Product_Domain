@@ -1,0 +1,108 @@
+{
+    "metaInfo": {
+        "dataIndex": "entityModel",
+        "collectionName": "entityModels",
+        "responseObjectName": "response"
+    },
+    "entityModels": [
+        {
+            "id": "sparepart_reachofsparepart_each_rolldown_graphProcessModel",
+            "name": "sparepart_reachofsparepart_each_rolldown",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "createdService": "entityManageModelService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-10T07:14:40.786-0600",
+                "defaultValueSource": "internal",
+                "defaultValueLocale": "en-US",
+                "graphProcessPath": "sparepart_reachofsparepart_each",
+                "matchRulesOperator": "or",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "attributeBased",
+                        "attributeMaps": [
+                            {
+                                "shrtitmnr": "shrtitmnr"
+                            }
+                        ],
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Create"
+                                    },
+                                    {
+                                        "actionName": "AddSourceRelationship"
+                                    },
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "DoNothing"
+                                    }
+                                ]
+                            }
+                        ],
+                        "smartIdAttributes": [
+                            {
+                                "attributeNames": "shrtitmnr",
+                                "concatDelimiter": "_"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "data": {
+                "attributes": {
+                    "itemreferencesequence": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "companyprefix": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "longitmnr": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "shrtitmnr": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "gtinhelper1": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "cpnyowner": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,133 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [{
+                "id": "rock-entity-detail-tabs_productgroup_uiConfig",
+                "name": "rock-entity-detail-tabs_productgroup",
+                "type": "uiConfig",
+               
+                "data": {
+                    "contexts": [
+                        {
+                            "context": {
+                                "app": "_DEFAULT",
+                                "classification": "_DEFAULT",
+                                "component": "rock-entity-detail-tabs",
+                                "domain": "_DEFAULT",
+                                "entityType": "productgroup",
+                                "relationship": "_DEFAULT",
+                                "role": "_DEFAULT",
+                                "tenant": "_DEFAULT",
+                                "user": "_DEFAULT"
+                            },
+                            "jsonData": {
+                                "config": {
+                                    "tabItems": {
+                                        "relationships": {
+                                            "component": {
+                                                "properties": {
+                                                    "config-context": {
+                                                        "relationshipNames": [
+                                                            "_ALL"
+                                                        ]
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "assets": {
+                                            "visible": false
+                                        },
+                                        "attributes": {
+                                            "component": {
+                                                "properties": {
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "comcd",
+                                                            "hasglblval",
+                                                            "ltxfreeflg",
+                                                            "previousman",
+                                                            "uomprimmaster",
+                                                            "hwtrkflg",
+                                                            "lastmodifiedby",
+                                                            "entityeditpermission",
+                                                            "nonstkitm",
+                                                            "gtshwsieb",
+                                                            "formstrengh",
+                                                            "createdby",
+                                                            "mktprdsetupdone",
+                                                            "formgeneric",
+                                                            "globalplanningdone",
+                                                            "x2lvl",
+                                                            "lintyp",
+                                                            "reqstr",
+                                                            "shlflifdy",
+                                                            "uomprimimp",
+                                                            "previousgsc",
+                                                            "dehpfreeflg",
+                                                            "previouspdo",
+                                                            "gqareviewrequired",
+                                                            "previousmkt",
+                                                            "x7lvl",
+                                                            "globalqadone",
+                                                            "lotproctyp",
+                                                            "kitconfpricmeth",
+                                                            "x2",
+                                                            "purpriclvl",
+                                                            "pdodocref",
+                                                            "workflowstatus",
+                                                            "makbuy",
+                                                            "prodgrpid",
+                                                            "legacyitem",
+                                                            "globalregulatorydone",
+                                                            "salpriclvl",
+                                                            "hzdflg",
+                                                            "bu",
+                                                            "coscidint",
+                                                            "cytosflg",
+                                                            "prodgrpname",
+                                                            "uomprimmet",
+                                                            "pdoreviewrequired",
+                                                            "tempsensflg",
+                                                            "mintemp",
+                                                            "pgenrichmentdone",
+                                                            "recordcordinatioreviewrequired",
+                                                            "lastmodifieddate",
+                                                            "mercfreeflg",
+                                                            "maxtemp",
+                                                            "mnthexp",
+                                                            "invcostlvl",
+                                                            "itmtyp",
+                                                            "previousgqa",
+                                                            "technology",
+                                                            "createdon",
+                                                            "previousgplan",
+                                                            "previousgra",
+                                                            "primcontainmat",
+                                                            "modelnumber",
+                                                            "drugmdothflg",
+                                                            "ukidctrymanufseqcalc",
+                                                            "pvcfreeflg",
+                                                            "nominfillvol",
+                                                            "pimhierarchy",
+                                                            "adminreviewrequired",
+                                                            "cpnyowner",
+                                                            "spinoffflag"
+                                                        ]
+                                                    },
+                                                    "need-attributes-grouping": true
+                                                }
+                                            }
+                                        },
+                                        "graph": {
+                                            "visible": true
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }]}

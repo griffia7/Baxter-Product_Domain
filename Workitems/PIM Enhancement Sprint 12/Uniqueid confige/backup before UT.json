@@ -1,0 +1,329 @@
+{
+    "request": {
+        "returnRequest": false,
+        "requestId": "b4284b80-767f-489f-86af-b889771f89cc",
+        "maxRecords": 100,
+        "taskId": "b4284b80-767f-489f-86af-b889771f89cc"
+    },
+    "response": {
+        "configObjects": [
+            {
+                "properties": {
+                    "entitytype": "eightdigitid",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "",
+                    "suffix": "",
+                    "paddirection": "Left",
+                    "padcharacter": "0",
+                    "totalwidth": "8",
+                    "startupseed": "1",
+                    "increment": "1",
+                    "lastgeneratedid": "10050092"
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "shortitemnumber",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "",
+                    "suffix": "",
+                    "paddirection": "Left",
+                    "padcharacter": "0",
+                    "totalwidth": "8",
+                    "startupseed": "1",
+                    "increment": "1",
+                    "lastgeneratedid": "82031118"
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "Gambro",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "",
+                    "suffix": "",
+                    "paddirection": "",
+                    "padcharacter": "",
+                    "totalwidth": "6",
+                    "startupseed": "1",
+                    "increment": "1",
+                    "lastgeneratedid": "973030"
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "FKCN",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "FKCN",
+                    "suffix": "",
+                    "paddirection": "",
+                    "padcharacter": "",
+                    "totalwidth": "10",
+                    "startupseed": "1",
+                    "increment": "1",
+                    "lastgeneratedid": "FKCN100119"
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "Claris",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "AIN",
+                    "suffix": "",
+                    "paddirection": "Left",
+                    "padcharacter": "0",
+                    "totalwidth": "8",
+                    "startupseed": "1",
+                    "increment": "1",
+                    "lastgeneratedid": "AIN03128"
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "MD",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "MD",
+                    "suffix": "",
+                    "paddirection": "",
+                    "padcharacter": "",
+                    "totalwidth": "10",
+                    "startupseed": "1",
+                    "increment": "1",
+                    "lastgeneratedid": ""
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "Lantern",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "",
+                    "suffix": "",
+                    "paddirection": "",
+                    "padcharacter": "",
+                    "totalwidth": "8",
+                    "startupseed": "1",
+                    "increment": "1",
+                    "lastgeneratedid": "3"
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "skutp",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "0732094",
+                    "suffix": "",
+                    "paddirection": "left",
+                    "padcharacter": "0",
+                    "totalwidth": "12",
+                    "startupseed": "0",
+                    "increment": "1",
+                    "lastgeneratedid": "073209400047"
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "other",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "0615521",
+                    "suffix": "",
+                    "paddirection": "left",
+                    "padcharacter": "0",
+                    "totalwidth": "12",
+                    "startupseed": "0",
+                    "increment": "1",
+                    "lastgeneratedid": "061552100106"
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "ROH-ZROH-10",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "10",
+                    "suffix": "",
+                    "paddirection": "left",
+                    "padcharacter": "0",
+                    "totalwidth": "9",
+                    "startupseed": "1",
+                    "increment": "1",
+                    "lastgeneratedid": ""
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "VERP-XERP-15",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "15",
+                    "suffix": "",
+                    "paddirection": "left",
+                    "padcharacter": "0",
+                    "totalwidth": "9",
+                    "startupseed": "1",
+                    "increment": "1",
+                    "lastgeneratedid": ""
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "ZERP-YERP-20",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "20",
+                    "suffix": "",
+                    "paddirection": "left",
+                    "padcharacter": "0",
+                    "totalwidth": "9",
+                    "startupseed": "1",
+                    "increment": "1",
+                    "lastgeneratedid": ""
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "HALB-55",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "55",
+                    "suffix": "",
+                    "paddirection": "left",
+                    "padcharacter": "0",
+                    "totalwidth": "9",
+                    "startupseed": "1",
+                    "increment": "1",
+                    "lastgeneratedid": "550000015"
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "XERT-61",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "61",
+                    "suffix": "",
+                    "paddirection": "left",
+                    "padcharacter": "0",
+                    "totalwidth": "9",
+                    "startupseed": "1",
+                    "increment": "1",
+                    "lastgeneratedid": ""
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "YERT-62",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "62",
+                    "suffix": "",
+                    "paddirection": "left",
+                    "padcharacter": "0",
+                    "totalwidth": "9",
+                    "startupseed": "1",
+                    "increment": "1",
+                    "lastgeneratedid": "620000002"
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "ZRRH-66",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "66",
+                    "suffix": "",
+                    "paddirection": "left",
+                    "padcharacter": "0",
+                    "totalwidth": "9",
+                    "startupseed": "1",
+                    "increment": "1",
+                    "lastgeneratedid": "660000007"
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "ZRPM-67",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "67",
+                    "suffix": "",
+                    "paddirection": "left",
+                    "padcharacter": "0",
+                    "totalwidth": "9",
+                    "startupseed": "1",
+                    "increment": "1",
+                    "lastgeneratedid": ""
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "ZRSP-68",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "68",
+                    "suffix": "",
+                    "paddirection": "left",
+                    "padcharacter": "0",
+                    "totalwidth": "9",
+                    "startupseed": "1",
+                    "increment": "1",
+                    "lastgeneratedid": "680000079"
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "ABF-75",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "75",
+                    "suffix": "",
+                    "paddirection": "left",
+                    "padcharacter": "0",
+                    "totalwidth": "9",
+                    "startupseed": "1",
+                    "increment": "1",
+                    "lastgeneratedid": ""
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "DIEN-85",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "85",
+                    "suffix": "",
+                    "paddirection": "left",
+                    "padcharacter": "0",
+                    "totalwidth": "9",
+                    "startupseed": "1",
+                    "increment": "1",
+                    "lastgeneratedid": ""
+                }
+            },
+            {
+                "properties": {
+                    "entitytype": "sku",
+                    "context": "",
+                    "relationshiptype": "",
+                    "prefix": "0887761",
+                    "suffix": "",
+                    "paddirection": "left",
+                    "padcharacter": "0",
+                    "totalwidth": "12",
+                    "startupseed": "0",
+                    "increment": "1",
+                    "lastgeneratedid": "088776100118"
+                }
+            }
+        ],
+        "status": "success",
+        "totalRecords": 21
+    }
+}
